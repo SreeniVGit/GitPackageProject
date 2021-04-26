@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+
+ <PropertyGroup>
+    <PackageId>LoanCalc</PackageId>
+    <Authors>Sreeni</Authors>
+    <Company>SVTNC</Company>
+    <PackageDescription>Loan Calculation</PackageDescription>
+    <RepositoryUrl>https://github.com/SreeniVGit/GitPackageProject.git</RepositoryUrl>
+  </PropertyGroup>
+</Project>
